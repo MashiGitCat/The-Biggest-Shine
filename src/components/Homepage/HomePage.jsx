@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import "../../styles/homepage.scss";
+import "../../styles/homepage.css";
 
 const HomePage = () => {
   const titleRef = useRef(null);

@@ -21,7 +21,6 @@
   bottom: 0;
   left: 0;
   background-image: url("../assets/images/title.png");
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }

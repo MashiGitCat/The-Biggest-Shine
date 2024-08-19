@@ -2,34 +2,32 @@
 
 
 .container {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:$dark-sky-blue;
-  }
-  
-  .intro-view {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 900;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    
-    
-    background-image: url('../assets/images/title.png');
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $dark-sky-blue;
+}
+
+.intro-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 900;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('../assets/images/title.png'); 
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
   
   .title-image {
     max-width: 80%;
