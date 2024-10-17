@@ -1,0 +1,15 @@
+@use "../../styles/partials/breakpoints" as*;
+@use "../../styles/partials/colors"as*;
+@use "../../styles/partials/mixins"as*;
+@use "../../styles/partials/typography"as*;
+@use "../../styles/partials/variables"as*;
+@use "../../styles/partials/resets"as*;
+
+
+.main {
+  &__background{
+    background-image: url("https://res.cloudinary.com/maheshidevelopments/image/upload/c_crop,ar_16:9/v1727736502/Seamless_Waves_And_Swirling_Lines_In_Deep_Blue.jpg");
+    background-size: cover;
+    height:100vh;
+  }
+}
